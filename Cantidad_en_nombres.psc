@@ -1,4 +1,4 @@
-Algoritmo Cantidad_en_nombres
+Algoritmo Contardor_nombre
 	Definir nombre,l Como Caracter;
 	Definir long,cons,vocal,espacio,extra,i Como Entero;
 	
@@ -32,22 +32,20 @@ Algoritmo Cantidad_en_nombres
 					FinSi
 				FinSi
 			Fin Si
-				
+			
 		FinPara
-		Escribir "El nombre contiene ",long," carácteres";
+		Escribir "El nombre contiene ",long," carÃ¡cteres";
 		Escribir "Vocales: ",vocal;
 		Escribir "Consonantes: ",cons;
 		Escribir "Espacios: ",espacio;
-		Escribir "Elementos extraños: ",extra;
 		Escribir "";
 		Si extra>0 Entonces
-			Escribir "Elementos que pudieron resultar como extraños:";
-			Escribir "1.- ñ";
-			Escribir "2.- palabras con tílde";
-			Escribir "3.- otros símbolos";
+			Escribir "Elementos que pudieron resultar como extraÃ±os:";
+			Escribir "1.- Ã±";
+			Escribir "2.- palabras con tÃ­lde";
+			Escribir "3.- otros sÃ­mbolos";
 			Escribir "";
 		FinSi
 		
 	FinSi
-	
 FinAlgoritmo
