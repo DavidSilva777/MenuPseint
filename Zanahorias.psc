@@ -1,4 +1,0 @@
-Algoritmo
-	
-FinAlgoritmo
-	
